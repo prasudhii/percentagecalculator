@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet"  href="style.css"/>
+</head>
+<body>
+    <h1> PERCENTAGE CALCULATOR</h1>
+    <div>
+        <h2>What is <input type="number" id="percent"/>% of <input type="number" id="num"/> ?</h2>
+        <button onclick="percentage_1()">Calculate</button>
+        <input type="text" id="value1" readonly/> % <br><br>
+    </div>
+
+    <div>
+        <h2><input type="number" id="num1"/> is what percent of <input type="number" id="num2"/> ?</h2>
+        <button onclick="percentage_2()">Calculate</button>
+        <input type="text" id="value2"  readonly/>%<br><br>
+    </div>
+    <div>
+        <h2>What is the percentage increase/decrease from <input type="number" id="num3"/> to <input type="number" id="num4"/> ?</h2>
+        <button onclick="percentage_3()">Calculate</button>
+        <input type="text" id="value3" readonly/>%
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
